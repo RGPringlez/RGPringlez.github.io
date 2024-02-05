@@ -1,3 +1,4 @@
+
 h1 {
 
     font-size: 200px;
@@ -39,3 +40,49 @@ p.copywrite {
     
 
 }
+
+@media only screen and (max-width: 400px){
+
+    h1 {
+
+        font-size: 75px;
+        padding: 0;
+        margin: -10px 0px 10px;
+        text-align: center;
+        font-family: 'Honk', system-ui;
+    
+    }
+    
+    li {
+    
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+        margin: 0 20px 0 100px;
+        padding: 0px;
+    }
+    
+    li:hover {
+    
+            font-size: 40px;
+        
+    }
+    
+    a.link_list {
+    
+        text-decoration: none;
+        color: black;
+    
+    }
+    
+    p.copywrite {  
+    
+        font-size: 10px;
+        color: gray;
+        text-align: center;
+        padding: 0px;
+        margin: 600px 0 -600px;
+        
+    
+    }    
+
+};
