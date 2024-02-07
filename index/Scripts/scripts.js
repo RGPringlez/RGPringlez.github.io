@@ -9,7 +9,7 @@ function TutorClick() {
     if (UserName != '') {
 
         alert("hello" + UserName);
-        window.open("Pages/tutoring.html", "_blank");
+        window.open("tutoring.html", "_blank");
     
     } else {
 
